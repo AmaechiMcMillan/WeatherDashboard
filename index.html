@@ -1,78 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg custom-navbar">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>Weather Dashboard</h1>
+    </header>
+    <!-- <nav class="navbar navbar-expand-lg custom-navbar">
         <a class="navbar-brand" href="#">Weather Dashboard</a>
-        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
-          aria-expanded="false" aria-label="Toggle navigation"> -->
-      </nav>
-       <div class="weatherSearch">  <!-- input-group mb-3 -->
-          <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
-          <button class="input-group-text" id="inputGroup-sizing-default">Search</button>
-      </div>
-      <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead current-temp"></p>
-        <hr class="my-4">
-        <p class="current-wind"></p>
-        <p class="current-humidity"></p>
-        <p class="current-uv"></p>
-      </div>
+      </nav> -->
+    <div class="jumbotron">
+      <h2 class="display-4">Search for a city:</h2>
+      <p class="lead current-temp"></p>
+      <hr class="my-4" />
+      <p class="current-wind"></p>
+      <p class="current-humidity"></p>
+      <p class="current-uv"></p>
+    </div>
 
-    
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title Day-One-Title">Card title</h5>
-          <h5 class="card-title Day-One-Wind">Card title</h5>
-          <h5 class="card-title Day-One-Humidity">Card title</h5>
-        </div>
+    <div class="weatherSearch">
+      <!-- input-group mb-3 -->
+      <input
+        type="text"
+        class="form-control"
+        aria-label="Sizing example input"
+        aria-describedby="inputGroup-sizing-default"
+      />
+      <button class="input-group-text" id="inputGroup-sizing-default">
+        Search
+      </button>
+    </div>
+
+    <div class="row">
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title Day-One-Title">Temp</h5>
+        <h5 class="card-title Day-One-Wind">Wind</h5>
+        <h5 class="card-title Day-One-Humidity">Humidity</h5>
       </div>
+    </div>
 
-      
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title Day-Two-Title">Card title</h5>
-          <h5 class="card-title Day-Two-Wind">Card title</h5>
-          <h5 class="card-title Day-Two-Humidity">Card title</h5>
-        </div>
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title Day-Two-Title">Temp</h5>
+        <h5 class="card-title Day-Two-Wind">Wind</h5>
+        <h5 class="card-title Day-Two-Humidity">Humidity</h5>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title Day-Three-Title">Card title</h5>
-          <h5 class="card-title Day-Three-Wind">Card title</h5>
-          <h5 class="card-title Day-Three-Humidity">Card title</h5>
-        </div>
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title Day-Three-Title">Temp</h5>
+        <h5 class="card-title Day-Three-Wind">Wind</h5>
+        <h5 class="card-title Day-Three-Humidity">Humidity</h5>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title Day-Four-Title">Card title</h5>
-          <h5 class="card-title Day-Four-Wind">Card title</h5>
-          <h5 class="card-title Day-Four-Humidity">Card title</h5>
-        </div>
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title Day-Four-Title">Temp</h5>
+        <h5 class="card-title Day-Four-Wind">Wind</h5>
+        <h5 class="card-title Day-Four-Humidity">Humidity</h5>
       </div>
+    </div>
 
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title Day-Five-Title">Card title</h5>
-          <h5 class="card-title Day-Five-Wind">Card title</h5>
-          <h5 class="card-title Day-Five-Humidity">Card title</h5>
-        </div>
+    <div class="card" style="width: 18rem">
+      <div class="card-body">
+        <h5 class="card-title Day-Five-Title">Temp</h5>
+        <h5 class="card-title Day-Five-Wind">Wind</h5>
+        <h5 class="card-title Day-Five-Humidity">Humidity</h5>
       </div>
+    </div>
+  </div>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

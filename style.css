@@ -6,6 +6,13 @@
     position: relative;
   }
 
-  nav {
+h1 {
     text-align: center;
+    background-color: aqua;
   }
+
+.jumbotron h2 {
+    text-align: left;
+    font-weight: bold;
+}
+
