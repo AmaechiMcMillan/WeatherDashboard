@@ -1,0 +1,11 @@
+.weatherSearch button {
+    display: flex;
+    /* Align the child elements to the right side of the parent */
+    justify-content: flex-end;
+    background-color: #147294;
+    position: relative;
+  }
+
+  nav {
+    text-align: center;
+  }
