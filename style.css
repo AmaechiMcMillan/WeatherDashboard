@@ -2,17 +2,25 @@
     display: flex;
     /* Align the child elements to the right side of the parent */
     justify-content: flex-end;
-    background-color: #147294;
+    background-color: #5498eb;
     position: relative;
+    color: white;
   }
 
 h1 {
     text-align: center;
-    background-color: aqua;
+    background-color: rgb(33, 38, 162);
+    color: white;
   }
 
-.jumbotron h2 {
+.jumbotron h4 {
     text-align: left;
     font-weight: bold;
+    font-size: 32px;
 }
+
+.row h4 {
+    font-weight: bolder;
+}
+
 
